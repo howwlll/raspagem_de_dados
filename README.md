@@ -7,7 +7,7 @@ Este projeto coleta tweets reais contendo uma hashtag de interesse (ex: #educaca
 
 ### Coleta de Dados
 - Tweets coletados usando a API gratuita do X (até 100 tweets por hashtag).
-- Os dados foram salvos em um arquivo CSV: [`tweets_coletados.csv`](./tweets_coletados.csv).
+- Os dados foram salvos em um arquivo CSV
 
 ### Análise de Sentimentos
 Foram aplicados os seguintes métodos:
@@ -31,10 +31,6 @@ Negativo (0.20)
 - O VADER em português tem limitações, pois o modelo original foi treinado em inglês.  
 - A tradução para inglês ajuda a aplicar VADER EN, mas pode alterar nuances do texto.  
 - O BERTimbau apresentou resultados mais coerentes em português, capturando melhor o sentimento dos tweets.
-
-## Como acessar os arquivos
-- CSV com os tweets coletados: [`tweets_coletados.csv`](./tweets_coletados.csv)
-- Código-fonte do projeto: `notebook.ipynb` ou `script.py`
 
 ## Autor
 Arthur Gonçalves Farias dos Reis
